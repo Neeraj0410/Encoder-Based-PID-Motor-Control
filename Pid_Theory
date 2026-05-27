@@ -1,0 +1,33 @@
+# PID Control Theory
+
+PID (Proportional-Integral-Derivative) control is a closed-loop control technique used to regulate system response based on feedback error.
+
+The controller continuously compares the desired setpoint with the measured output from the encoder and calculates a correction signal.
+
+## Proportional Term (P)
+
+The proportional term reacts to the present error.
+
+A larger error produces a stronger correction response.
+
+## Integral Term (I)
+
+The integral term accumulates past error over time.
+
+It helps reduce steady-state error and improves long-term accuracy.
+
+## Derivative Term (D)
+
+The derivative term predicts future error trends by analyzing the rate of error change.
+
+It improves damping and reduces oscillations.
+
+## PID Equation
+
+:contentReference[oaicite:0]{index=0}
+
+Where:
+- e(t) = control error
+- Kp = proportional gain
+- Ki = integral gain
+- Kd = derivative gain
