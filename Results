@@ -1,0 +1,30 @@
+The PID controller successfully regulated motor response using real-time encoder feedback.
+
+The system demonstrated:
+- Stable PWM-based motor control
+- Real-time encoder pulse tracking
+- Improved response stability after PID tuning
+- Reduced oscillations using derivative control
+- Reliable feedback acquisition using interrupts
+
+## Observations
+
+- Encoder noise initially caused unstable readings.
+- Pull-up resistors improved signal stability.
+- Capacitor filtering reduced PWM noise interference.
+- High proportional gain produced overshoot.
+- Derivative tuning improved damping behavior.
+
+## Current Limitations
+
+- Single-direction motor control
+- No graphical response plotting
+- Manual PID tuning process
+
+## Future Improvements
+
+- Bidirectional motor control
+- Anti-windup implementation
+- Real-time RPM plotting
+- GUI-based parameter tuning
+- Wireless monitoring interface
