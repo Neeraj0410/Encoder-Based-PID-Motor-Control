@@ -1,0 +1,37 @@
+# Components Used
+
+## Hardware Components
+
+### Arduino Uno
+Main microcontroller used for executing the PID control algorithm, reading encoder feedback, and generating PWM signals for motor control.
+
+### BTS7960 Motor Driver
+High-current motor driver module used to drive the DC motor using PWM control signals from the Arduino.
+
+### N20 Encoder DC Motor
+12V geared DC motor with integrated encoder used for rotational feedback and closed-loop control.
+
+### Breadboard
+Used for temporary prototyping, signal routing, pull-up resistor connections, and capacitor placement.
+
+### 12V DC Power Adapter
+External power source used to supply power to the motor driver and DC motor.
+
+### Jumper Wires
+Used for electrical interconnections between Arduino, encoder, breadboard, and motor driver.
+
+### 10kΩ Pull-Up Resistors
+Connected to encoder signal lines to stabilize pulse readings and prevent floating signals.
+
+### 0.1µF Ceramic Capacitor
+Used near encoder power lines for filtering high-frequency electrical noise generated during motor operation.
+
+### 100µF Electrolytic Capacitor
+Connected across motor terminals to suppress voltage spikes and reduce motor noise.
+
+
+# Software Used
+
+- Arduino IDE
+- Embedded C/C++
+- Serial Monitor for debugging and PID tuning
